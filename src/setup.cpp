@@ -37,6 +37,18 @@ void main_setup() { // benchmark; required extensions in defines.hpp: BENCHMARK,
 
 
 
+#ifndef BENCHMARK
+// ================================================================
+// Periodic Hill Flow — Modular Case
+// 所有參數定義在 periodicHill/variables.h
+// 所有實作 (幾何/VTK/checkpoint/main_setup) 在 periodicHill/main.cu
+// ================================================================
+#include "periodicHill/variables.h"
+#include "periodicHill/main.cu"
+#endif // !BENCHMARK
+
+
+
 /*void main_setup() { // 3D Taylor-Green vortices; required extensions in defines.hpp: INTERACTIVE_GRAPHICS
 	// ################################################################## define simulation box size, viscosity and volume force ###################################################################
 	LBM lbm(128u, 128u, 128u, 1u, 1u, 1u, 0.01f);
