@@ -389,7 +389,11 @@ static bool load_checkpoint(
 // ================================================================
 void main_setup() {
 	// ##################### 1. 建立 LBM 物件 #####################
+#if (PH_DX * PH_DY * PH_DZ > 1u)
+	LBM lbm((uint)PH_NX, (uint)PH_NY, (uint)PH_NZ, PH_DX, PH_DY, PH_DZ, PH_niu, 0.0f, PH_FY, 0.0f);
+#else
 	LBM lbm((uint)PH_NX, (uint)PH_NY, (uint)PH_NZ, PH_niu, 0.0f, PH_FY, 0.0f);
+#endif
 
 	const uint Nx_ = lbm.get_Nx();
 	const uint Ny_ = lbm.get_Ny();

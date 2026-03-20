@@ -29,6 +29,16 @@
 #define PH_NY       (9 * PH_H)                                     // 流向格點數 = LY/H * h
 #define PH_NZ       ((uint)(3.036f * (float)PH_H) + 2u)            // 法向格點數 = LZ/H * h + 2(BB層)
 
+// --- 多 GPU 域分解 (Multi-GPU Domain Decomposition) ---
+// Dx×Dy×Dz = 總 GPU 數量
+// 建議沿最長方向 (Y, 流向) 切分; NY 必須能被 DY 整除
+//   單 GPU: DX=1, DY=1, DZ=1  →  1 GPU
+//   4  GPU: DX=1, DY=4, DZ=1  →  NY/DY = 288/4 = 72 per GPU
+//   8  GPU: DX=1, DY=8, DZ=1  →  NY/DY = 288/8 = 36 per GPU
+#define PH_DX       1u
+#define PH_DY       1u          // ← 改這裡: 1=單GPU, 4=四GPU, 8=八GPU
+#define PH_DZ       1u
+
 // ================================================================
 // 4. 物理參數
 // ================================================================
