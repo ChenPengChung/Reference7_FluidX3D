@@ -36,7 +36,7 @@
 //   4  GPU: DX=1, DY=4, DZ=1  →  NY/DY = 288/4 = 72 per GPU
 //   8  GPU: DX=1, DY=8, DZ=1  →  NY/DY = 288/8 = 36 per GPU
 #define PH_DX       1u
-#define PH_DY       1u          // ← 改這裡: 1=單GPU, 4=四GPU, 8=八GPU
+#define PH_DY       4u          // ← 改這裡: 1=單GPU, 4=四GPU, 8=八GPU
 #define PH_DZ       1u
 
 // ================================================================

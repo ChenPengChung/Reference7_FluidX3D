@@ -1,0 +1,300 @@
+nohup: ignoring input
+.-----------------------------------------------------------------------------.
+|                      [36m ______________  [0m[33m ______________ [0m                      |
+|                       [36m\   ________  | [0m[33m|  ________   /[0m                       |
+|                        [36m\  \       | | [0m[33m| |       /  /[0m                        |
+|                         [36m\  \      | | [0m[33m| |      /  /[0m                         |
+|                          [36m\  \     | | [0m[33m| |     /  /[0m                          |
+|                           [36m\  \_.-"  | [0m[33m|  "-._/  /[0m                           |
+|                            [36m\    _.-" [0m[95m_ [0m[33m"-._    /[0m                            |
+|                             [36m\.-" [0m[95m_.-" "-._ [0m[33m"-./[0m                             |
+|                              [95m .-"  .-"-.  "-. [0m                              |
+|                               [95m\  v"     "v  /[0m                               |
+|                                [95m\  \     /  /[0m                                |
+|                                 [95m\  \   /  /[0m                                 |
+|                                  [95m\  \ /  /[0m                                  |
+|                                   [95m\  '  /[0m                                   |
+|                                    [95m\   /[0m                                    |
+|                                     [95m\ /[0m                FluidX3D Version 3.5 |
+|                                      [95m'[0m     Copyright (c) Dr. Moritz Lehmann |
+|-----------------------------------------------------------------------------|
+| [33mWarning[0m: LBM grid (32x288x99) is not equally divisible in domains (4x4x4).  |
+|          Changing resolution to (32x288x96).                                |
+|----------------.------------------------------------------------------------|
+| Device ID    0 | Tesla P100-PCIE-16GB                                       |
+| Device ID    1 | Tesla P100-PCIE-16GB                                       |
+| Device ID    2 | Tesla P100-PCIE-16GB                                       |
+| Device ID    3 | Tesla P100-PCIE-16GB                                       |
+| Device ID    4 | Tesla P100-PCIE-16GB                                       |
+| Device ID    5 | Tesla P100-PCIE-16GB                                       |
+| Device ID    6 | Tesla P100-PCIE-16GB                                       |
+| Device ID    7 | Tesla P100-PCIE-16GB                                       |
+|----------------'------------------------------------------------------------|
+| [33mWarning[0m: Not enough devices of the same type available. Using single        |
+|          fastest device for all domains.                                    |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device ID      | 0                                                          |
+| Device Name    | Tesla P100-PCIE-16GB                                       |
+| Device Vendor  | NVIDIA Corporation                                         |
+| Device Driver  | 550.54.14 (Linux)                                          |
+| OpenCL Version | OpenCL C 3.0                                               |
+| Compute Units  | 56 at 1328 MHz (3584 cores, 9.519 TFLOPs/s)                |
+| Memory, Cache  | 16269 MB VRAM, 1344 KB global / 48 KB local                |
+| Buffer Limits  | 4067 MB global, 64 KB constant                             |
+|----------------'------------------------------------------------------------|
+| [92mInfo[0m: OpenCL C code successfully compiled.                                  |
+| [92mInfo[0m: Allocating memory. This may take a few seconds.                       |
+|----------------.------------------------------------------------------------|
+| Device 
